@@ -20,6 +20,10 @@
         <suiteXmlFiles>
           <suiteXmlFile>${suite}.xml</suiteXmlFile>
         </suiteXmlFiles>
+	<reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
+        <systemPropertyVariables>
+          <usedefaultlisteners>true</usedefaultlisteners>
+        </systemPropertyVariables>
       </configuration>
     </plugin>
   </plugins>
